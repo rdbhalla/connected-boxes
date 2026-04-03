@@ -17,8 +17,8 @@ theme = "PaperMod"
   ShowCodeCopyButtons = true
 
   [params.homeInfoParams]
-    Title = "Hi, I'm Raman 👋"
-    Content = "Welcome to my site. I write about connected boxes."
+    Title = "Hi, I'm Raman"
+    Content = "Welcome! I write about connected boxes."
 
   [[params.socialIcons]]
     name = "github"
