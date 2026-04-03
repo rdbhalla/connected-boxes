@@ -1,4 +1,4 @@
-baseURL = 'https://connectrb.github.io/connected-boxes/'
+baseURL = 'https://rdbhalla.github.io/connected-boxes/'
 languageCode = "en-us"
 title = "Connected-Boxes"
 theme = "hugo-book"

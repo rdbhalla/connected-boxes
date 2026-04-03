@@ -14,5 +14,5 @@ This is my digital diary where I write about **connected boxes**, technology, an
 {{< section >}}
 
 ### Find Me Elsewhere
-- [GitHub](https://github.com/connectrb)
-- [LinkedIn](https://www.linkedin.com/in/raman-bhalla)
+- [GitHub](https://github.com/rdbhalla)
+- [LinkedIn](https://www.linkedin.com/in/raman-bhalla)s

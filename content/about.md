@@ -6,7 +6,7 @@ draft = false
 
 **25 years of technology consulting. Thousands of whiteboards. Two daughters who still aren’t convinced I have a real job.**
 
-According to my kids, I get paid to "talk and draw boxes."
+According to my two daughters, I get paid to "talk and draw boxes."
 
 They aren't wrong. After two and a half decades in the industry, I’ve realised that solving most complex problems require connecting the right boxes.
 
@@ -21,3 +21,4 @@ I’ve spent my career helping organisations move from a "Why" to "What" and "Ho
 I intend to share these stories here at **Connected Boxes**.
 
 At the end of the day, I’m just a dad trying to make technology approachable for humans and having a bit of fun along the way.
+s
