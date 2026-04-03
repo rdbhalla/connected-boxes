@@ -2,18 +2,15 @@ name: Deploy Hugo to GitHub Pages
 
 on:
   push:
-    branches: [master, main] # Covers both possibilities
+    branches: [master, main]
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    env:
-      # This addresses the specific warning you are seeing
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true 
     steps:
       - uses: actions/checkout@v4
         with:
-          submodules: recursive # Crucial for Hugo Book
+          submodules: recursive
           fetch-depth: 0
 
       - name: Setup Hugo
@@ -23,8 +20,8 @@ jobs:
           extended: true
 
       - name: Build
-        # -v (verbose) will show us the EXACT error if it fails again
-        run: hugo --minify -v 
+        # Added -v for verbose output and --printPathWarnings
+        run: hugo --minify -v --printPathWarnings
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
