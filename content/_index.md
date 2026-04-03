@@ -14,5 +14,5 @@ This is my digital garden where I write about **connected boxes**, technology, a
 {{< section >}}
 
 ### Find Me Elsewhere
-- [GitHub](https://github.com/ramandeepbhalla)
+- [GitHub](https://github.com/connectrb)
 - [LinkedIn](https://www.linkedin.com/in/raman-bhalla)
