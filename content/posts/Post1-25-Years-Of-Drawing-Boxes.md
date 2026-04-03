@@ -30,4 +30,4 @@ This is going to be just my reflections on being a tech professional, an industr
     alt="Recent whiteboard session" 
     caption="Here is one of the recent whiteboard sessions" 
     align="center" 
->}}
+}}
