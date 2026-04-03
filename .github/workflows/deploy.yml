@@ -2,7 +2,8 @@ name: Deploy Hugo to GitHub Pages
 
 on:
   push:
-    branches: [master]
+    # Changed to 'main' - verify if your branch is master or main
+    branches: [main, master] 
 
 jobs:
   deploy:
@@ -10,17 +11,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          submodules: true
+          # Changed to recursive to ensure the theme submodule is fully pulled
+          submodules: recursive
           fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.147.2'
+          hugo-version: 'latest' # Uses the most stable version
           extended: true
 
       - name: Build
-        run: hugo --minify
+        # Adding --gc to clean up old files and -v for better error logging
+        run: hugo --minify --gc -v
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
