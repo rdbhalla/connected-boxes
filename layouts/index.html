@@ -1,9 +1,4 @@
 {{ define "main" }}
-<div class="book-page">
-  <header class="book-header">
-    <h1>{{ .Title }}</h1>
-  </header>
-
   <article class="markdown book-article">
     {{ .Content }}
     
@@ -34,16 +29,16 @@
     {{ end }}
     
     <div class="book-post-view-all">
-      <a href="https://rdbhalla.github.io/connected-boxes/posts/">View all posts →</a>
+      <a href="{{ "posts/" | relURL }}">View all posts →</a>
     </div>
     
     <hr>
     
     <h2>Find Me Elsewhere</h2>
     <ul>
+      <li><a href="{{ "about/" | relURL }}">About Me</a></li>
       <li><a href="https://github.com/rdbhalla">GitHub</a></li>
       <li><a href="https://www.linkedin.com/in/raman-bhalla">LinkedIn</a></li>
     </ul>
   </article>
-</div>
 {{ end }}

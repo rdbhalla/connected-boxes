@@ -25,6 +25,9 @@ theme = "hugo-book"
   
   # (Optional) Use this if you want to show 'Table of Contents' on the right
   BookToC = true
+  
+  # Set section to '*' to render all content in the sidebar menu
+  BookSection = "*"
 
 # Hugo Book usually generates the menu automatically from your 
 # content folder structure, but you can define manual links here.
