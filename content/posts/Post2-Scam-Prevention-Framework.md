@@ -10,7 +10,7 @@ tags: ["scams", "telcos", "regulation"]
 
 ## Scams are real, and they're everywhere
 
-Who hasn't heard of scams? Many of us have. For most of the lucky ones, it's just news we've heard. It's not close or personal. But it's scary to know that in Australia in 2024, people lost $2.7 billion of hard-earned money to scams.
+Who hasn't heard of scams? Many of us have. For most of the lucky ones, it's just news we've heard. It's not close or personal. But they are very real - In Australia in 2024, people lost $2.7 billion of their hard-earned money to scams.
 
 ## What exactly is a scam?
 
@@ -68,9 +68,9 @@ The boxes are getting connected.
 
 ## The bottom line
 
-Scams aren't going away overnight. Scammers will always be one step ahead. But these new rules mean:
-- Companies have to try harder to protect you
-- The friction for scammers increases
-- You've got more backup when things go wrong
+Scams will not disappear overnight, and scammers will always be one step ahead. But these new rules mean:
+- Companies have to try harder to protect us.
+- The friction for scammers increases.
+- You've got more backup when things go wrong.
 
 Will this stop all scams? No. But it's progress worth celebrating. 
