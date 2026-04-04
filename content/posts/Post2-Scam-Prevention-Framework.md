@@ -61,8 +61,9 @@ Those fake investment ads on social media now have to:
 ## The "connected boxes" part
 Here's the cool bit: **we're connecting the right boxes**.
 
-Before: Scam happens → You lose money → You report it → Nothing changes.
-Now: Scam attempt → Bank spots it → Telco blocks the number → Social media takes down the account → Everyone learns and gets better.
+**Before**: Scam happens → You lose money → You report it → Nothing changes.
+
+**Now**: Scam attempt → Bank spots it → Telco blocks the number → Social media takes down the account → Everyone learns and gets better.
 
 The boxes are getting connected.
 
