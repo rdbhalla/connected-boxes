@@ -35,3 +35,5 @@ I did run into some initial compatibility issues between Hugo and the templates 
 
 ![Writing-Setup](Writing-Setup-)
 *My Humble Writing Setup*
+
+If you are thinking of getting into writing, just get started.
