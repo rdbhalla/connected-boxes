@@ -6,13 +6,13 @@ date: 2026-04-12T22:18:47+10:00
 # bookPostThumbnail: thumbnail.*
 ---
 
-"I am so disappointed. You wasted $0.35 and actually broke my code completely."
+*"I am so disappointed. You wasted $0.35 and actually broke my code completely."*
 
-"No, that did not fix the build on github. Can you roll back all the changes you just made?"
+*"No, that did not fix the build on github. Can you roll back all the changes you just made?"*
 
-"You deleted my draft write-up for Post#4. Where is my Post#4?"
+*"You deleted my draft write-up for Post#4. Where is my Post#4?"*
 
-"I wasted almost a dollar and I have lost my draft write up. Super disappointed."
+*"I wasted almost a dollar and I have lost my draft write up. Super disappointed."*
 
 This is me "vibing" with OpenCode when I asked it to recommend a better Hugo Template for my blog. At the end of this "vibing", my blog was completely broken, and I had lost my Post#4 draft completely.
 
@@ -26,9 +26,11 @@ I was happy when Giscus got properly integrated, and then I thought to myself - 
 
 And that's it! Without much deliberation, I entered a prompt - 
 
-"Review my hugo theme and recommend if I can get a better looking template to suit my content type." **<Enter>**
+*"Review my hugo theme and recommend if I can get a better looking template to suit my content type."* **Enter**
 
-My next 4 prompts are listed in the beginning of this write-up. OpenCode took the complete liberty to not only find a template, it also updated my entire file structure and theme files. When I tried to test it locally by running the 'hugo server -D', it failed to load. The entire thing stopped working. 
+My next 4 prompts are listed in the beginning of this write-up. OpenCode took the complete liberty to not only find a template, it also updated my entire file structure and theme files. When I tried to test it locally by running the 'hugo server -D', it failed to load. 
+
+**The entire thing stopped working.**	 
 
 > I asked for recommendation. I got a renovation. And it happened so fast, I couldn't even type - 'Wait, What are you doing?'
 
