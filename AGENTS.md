@@ -77,6 +77,13 @@ git submodule update --init --recursive   # after clone
 - **NEVER** modify `hugo.toml` unless explicitly requested for a specific parameter change
 - If config changes are needed, ask user first
 
+### GitHub Safety
+- **NEVER** run any git commands that interact with remote repositories (git push, git pull, git clone from remote, git fetch)
+- **NEVER** create, modify, or delete branches
+- **NEVER** make commits or push changes
+- Local git operations (git status, git diff, git log) are acceptable
+- If remote interaction is needed, ask the user explicitly before proceeding
+
 ### Hugo Standard Practices
 - Use `layouts/_partials/` for theme overrides (NOT `layouts/partials/`)
 - Only modify files in `layouts/` and `static/` for customization

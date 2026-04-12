@@ -29,7 +29,7 @@ I've been experimenting with a few different models on OpenRouter to see what wo
 *My OpenRouter Activity Snapshot*
 
 ## The Workflow
-I'm a bit of a fanboy for terminal-based tools. Since I don't get to use the terminal in my day-to-day work, it feels nostalgic to spend time in it. My editor of choice is **Micro**, and I use **LazyGit** for my Git commits and pushes. The integration is seamless - as soon as I push a new post, Github Actions make they page live in a few seconds.
+I'm a bit of a fanboy for terminal-based tools. Since I don't get to use the terminal in my day-to-day work, it feels nostalgic to spend time in it. My editor of choice is **Micro**, and I use **LazyGit** for my Git commits and pushes. The integration is seamless - as soon as I push a new post, Github Actions make the page live in a few seconds.
 
 I did run into some initial compatibility issues between Hugo and the templates I chose, but they were easy to rectify by running a folder structure and code scan through OpenCode.
 
