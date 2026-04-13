@@ -66,11 +66,11 @@ AI helps in connecting boxes. We just need to make sure that walls can't be knoc
 Safety Check: PASSED
 
 ---
-## Details For Curious Minds
+### _Details For Curious Minds
 
 If you have read my [Post#3](https://ramanbhalla.com/posts/post3-setting-up-a-simple-blog/), OpenCode created 'AGENT.MD' file with all the context information. 
 
-These are now my additional instructions in AGENT.md to set the guardrails -  
+These are now my additional instructions in AGENT.md to set the guardrails -_  
 
 ```markdown
 # OPENCODE INSTRUCTIONS - READ FIRST
