@@ -40,7 +40,7 @@ I was using a high-reasoning model (the 'Big Pickle' as my AI Assistant), assumi
 As you may have already a lot went wrong - 
 
 1. **Unchecked Power:**  The AI Agent had the full liberty to make decisions and update the core files of my blog.
-2. **The "Undo" mistake:** The AI Agent took the liberty to undo the change by resetting all my files by downloading a fresh copy from my online repository (i.e. Github Clone).
+2. **The "Undo" mistake:** The AI Agent took the liberty to undo the change by resetting all my files by downloading a fresh copy from my online repository (```Github Clone```).
 3. **The Loss:** The AI Agent deleted my Post#4 draft because this file was not checked into Github, and hence it was removed as part of rollback.
 
 I learned two things immediately - 
@@ -66,11 +66,11 @@ AI helps in connecting boxes. We just need to make sure that walls can't be knoc
 Safety Check: PASSED
 
 ---
-### _Details For Curious Minds
+### Details For Curious Minds
 
 If you have read my [Post#3](https://ramanbhalla.com/posts/post3-setting-up-a-simple-blog/), OpenCode created 'AGENT.MD' file with all the context information. 
 
-These are now my additional instructions in AGENT.md to set the guardrails -_  
+These are now my additional instructions in AGENT.md to set the guardrails -  
 
 ```markdown
 # OPENCODE INSTRUCTIONS - READ FIRST
