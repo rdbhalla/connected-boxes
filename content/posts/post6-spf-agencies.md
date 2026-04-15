@@ -69,6 +69,8 @@ Role: Authorised EDR scheme operator
 
 It is not a small list, but wait, there is more. 
 
+---
+
 ## There is more
 
 Then there are private industry and customer advocacy groups. These bodies are not "agencies" of the scam prevention framework itself but rather consultation partners.
@@ -109,6 +111,8 @@ _Role: Consumer and victim advocacy_
 - Provide independent policy input.
 - Applies scrutiny and challenge through SPF consultations.
 - Ensures consumers harm remains central to SPF design.
+
+---
 
 ## And More 
 
@@ -190,6 +194,8 @@ They solve **different layers of the same problem**:
 
 - **AFCX** anchors SPF in _trusted, outcome‑rich financial intelligence_
 - **GSE** enables _speed, scale and cross‑sector disruption_
+
+---
 
 ## Many boxes to connect
 
