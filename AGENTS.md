@@ -99,3 +99,30 @@ After completing **any** task, before responding to the user:
 2. Verify no changes violated any constraints
 3. If a violation occurred, revert and report immediately
 4. Include "Safety check: PASSED" in your final response
+
+## Writing Style Guide
+
+When assisting with blog post revisions:
+
+### Voice & Tone
+- Maintain first-person, conversational tone
+- Keep the honest, reflective voice with personal learnings
+- Use analogies to explain complex concepts
+
+### Structure & Formatting
+- Use consistent heading hierarchy (prefer ### for major sections, #### for sub-sections)
+- Keep blockquotes (> ) for key takeaways or hook quotes at start
+- Use --- for section breaks between major ideas
+
+### Writing Improvements
+- Break long sentences (target < 25 words)
+- Use bullet lists for enumerated items
+- Add a hook at the start (quote, question, or personal moment)
+- End with a reflection question or conversational close
+- Apply bold formatting consistently for key terms (first use only)
+- Ensure each post gets a final edit pass before publishing
+
+### Post Lifecycle
+- Draft posts stay in `content/posts/` with `draft: true`
+- Final edit pass before removing draft flag
+- Verify all links work and images reference correctly
