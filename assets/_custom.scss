@@ -28,6 +28,10 @@ h1, h2, h3 {
   color: var(--heading-color);
 }
 
+.markdown blockquote {
+  border-inline-start-color: var(--heading-color);
+}
+
 code,
 pre,
 kbd,
