@@ -32,6 +32,12 @@ h1, h2, h3 {
   border-inline-start-color: var(--heading-color);
 }
 
+.book-brand a,
+.book-brand a:hover,
+.book-brand a:visited {
+  color: var(--heading-color);
+}
+
 code,
 pre,
 kbd,

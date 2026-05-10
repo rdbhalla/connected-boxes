@@ -4,7 +4,7 @@ date: 2026-05-07T19:56:27+10:00
 draft: false
 ---
 
-**TL;DR:** I used pi.dev to verify my tax return by co-designing an 8-stage SKILL.md with a Visual-Reasoning Loop. The agent found a missing investment-loan statement that my accountant had missed—proving that deterministic tasks need deterministic procedures, not black-box magic.
+**TL;DR:** I used pi.dev to verify my tax return by co-designing an 6-stage SKILL.md with a Visual-Reasoning Loop. The agent found a missing investment-loan statement that my accountant had missed—proving that deterministic tasks need deterministic procedures, not black-box magic.
 
 I dread the annual task of filing my tax returns. I'm fine with compiling documents, but I struggle to verify if my tax accountant has accurately accounted for all income and expenses to claim the correct deductions. Considering my wife's tax return as well, that's 70 pages of numbers I must carefully verify before signing.
 
@@ -26,15 +26,17 @@ So here was my initial prompt:
 
 In my mind, I was literally saying, "Go AI Agent – do your magic! Save me from the misery of verifying 70 pages of details."
 
-It sprang into action, generating pages of its own problems and solutions. It gobbled up tokens like a vacuum, performing tasks that were beyond my understanding.
+It sprang into action, generating pages of its own problems and solutions. It gobbled up expensive tokens like a vacuum, performing tasks that were beyond my understanding.
 
 I proudly told my wife I was using AI to verify our tax return. She works for a bank and knows firsthand that AI adoption often falters in scenarios requiring specialist human intervention. She was understandably skeptical about a magical agent verifying our returns.
 
-Even though she was doubtful, I persisted. I had my own doubts about how the agent worked, but I didn't have the time to read through all the scrolling text and figure out what it was thinking. I remain amused by the agent's self-talk:
+Even though she was doubtful, I persisted. I had my own doubts about how the agent worked, but I didn't have the patience to read through all the scrolling text and figure out what it was thinking. I remain amused by the agent's self-talk:
 
-*   "Oh wait, I think I took a wrong approach there."
-*   "Oh, I think I am overcomplicating this for myself."
-*   "The calculation is wrong. Let me read the document again."
+_"Oh wait, I think I took a wrong approach there."_
+
+_"Oh, I think I am overcomplicating this for myself."_
+
+_"The calculation is wrong. Let me read the document again."_
 
 It felt, frankly, eccentric.
 
