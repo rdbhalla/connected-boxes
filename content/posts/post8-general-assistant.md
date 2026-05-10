@@ -131,7 +131,7 @@ Since most documents are PDFs, I wanted extraction to be as precise as possible.
 
 **Comparison & Scoring:** Outputs are compared, assigning HIGH, MEDIUM, or LOW confidence scores. Values with MEDIUM or LOW confidence are flagged for manual review.
 
-My SKILL.md finally took shape with these stages. (I'll skip the full details here, but feel free to reach out if you want to see the complete `SKILL.md`.)
+Now the agent had everything it needed - Personality, Skills and Tools.
 
 ---
 ## Final Verification Report
