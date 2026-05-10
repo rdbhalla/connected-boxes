@@ -18,10 +18,13 @@ body,
 .book-header,
 .book-search input,
 .book-footer,
-.book-brand,
 .book-languages,
 nav label {
   font-family: var(--font-body);
+}
+
+.book-brand {
+  font-family: var(--font-mono);
 }
 
 h1, h2, h3 {

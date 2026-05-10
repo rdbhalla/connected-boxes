@@ -1,6 +1,6 @@
 baseURL = 'https://ramanbhalla.com/'
 languageCode = "en-us"
-title = "Connected-Boxes"
+title = "Connected Boxes"
 theme = "hugo-book"
 
 # Hugo Book works best when it manages its own menus,
