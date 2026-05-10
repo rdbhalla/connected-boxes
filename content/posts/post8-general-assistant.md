@@ -4,7 +4,7 @@ date: 2026-05-07T19:56:27+10:00
 draft: false
 ---
 
-**TL;DR:** I used pi.dev to verify my tax return by co-designing an 6-stage SKILL.md with a Visual-Reasoning Loop. The agent found a missing investment-loan statement that my accountant had missed—proving that deterministic tasks need deterministic procedures, not black-box magic.
+**TL;DR:** I used pi.dev to verify my tax return by co-designing an 7-stage SKILL.md with a Visual-Reasoning Loop. The agent found a missing investment-loan statement that my accountant had missed—proving that deterministic tasks need deterministic procedures, not black-box magic.
 
 I dread the annual task of filing my tax returns. I'm fine with compiling documents, but I struggle to verify if my tax accountant has accurately accounted for all income and expenses to claim the correct deductions. Considering my wife's tax return as well, that's 70 pages of numbers I must carefully verify before signing.
 
@@ -49,15 +49,15 @@ After what felt like an eternity, it returned with a slightly underwhelming resp
 
 There was no way I could rely on this outcome without understanding the process. How did it reach the conclusion that everything was satisfactory? What steps did it take to be so confident?
 
-The core issue: how can I trust a probabilistic agent's confidence in a deterministic task without understanding its process? Tax regulations follow strict rules where absolute accuracy is paramount—unlike creative tasks. This is the same dilemma organisations face when adopting AI for compliance-heavy work.
+The core issue: **how can I trust a probabilistic agent's confidence in a deterministic task without understanding its process?** Tax regulations follow strict rules where absolute accuracy is paramount—unlike creative tasks. This is the same dilemma organisations face when adopting AI for compliance-heavy work.
 
-> "How do we trust something which by design is probabilistic?"
+> **How do we trust something which by design is probabilistic?**
 
 So, what if I instructed it to follow the exact steps I would take? That would be better, as I'd then know what it did.
 
 I soon understood my predicament.
 
-> On one side, I don't want the agent limited by my knowledge; at the same time, I don't want it to be liberal with its own knowledge, which erodes my trust in its outcome.
+> **On one side, I don't want the agent limited by my knowledge; at the same time, I don't want it to be liberal with its own knowledge, which erodes my trust in its outcome.**
 
 ---
 ## Thinking This Through: I Want to Know My Agent's Skills
@@ -111,29 +111,29 @@ I started outlining the skills my tax return review agent would need by consider
 2.  **Recognise that attribute names aren't always unique.** An attribute name can appear in multiple contexts (e.g., "Income" could be salary or rent). Therefore, the agent must uniquely identify context-name-value triplets, not just name-value pairs, when reading complex PDFs.
 3.  **Define the tools it needs to read files with improved accuracy,** to establish a clear mathematical and evidentiary audit trail, essentially creating a detailed **traceability matrix** of data in the tax return against the provided documents that must also include independent calculation of all derived data.
 
-Brainstorming this with the agent, we developed an 6-stage `SKILL.md` framework. Key stages included:
-*   **Stage 0: Completeness, Temporal Audit & Rate Sync:** Initial checks on document integrity and timelines.
-*   **Stage 1: Evidence Cataloging (Input Analysis):** Reading and indexing all provided source documents.
-*   **Stage 2: Output Parsing & Initial Labelling:** Extracting and organizing data from the tax return itself.
-*   **Stage 3: Mathematical Validation:** Re-calculating all derived figures against source data.
-*   **Stage 4: Deduction Gap Analysis:** Cross-referencing claimed deductions against ATO guidelines and identifying potential missed deductions.
-*   **Stage 5: Sanity & Compliance Audit:** General checks for adherence to tax law and logical consistency.
-*   **Stage 6: Compile Final Verification Report:** Summarizing findings.
+Brainstorming this with the agent, we developed a 7-stage `SKILL.md` framework. Key stages included:
+*   **Stage 1: Completeness & Temporal Audit:** Initial checks on document integrity and timelines.
+*   **Stage 2: Evidence Cataloging (Input Analysis):** Reading and indexing all provided source documents.
+*   **Stage 3: Output Parsing & Initial Labelling:** Extracting and organizing data from the tax return itself.
+*   **Stage 4: Mathematical Validation:** Re-calculating all derived figures against source data.
+*   **Stage 5: Deduction Gap Analysis:** Cross-referencing claimed deductions against ATO guidelines and identifying potential missed deductions.
+*   **Stage 6: Sanity & Compliance Audit:** General checks for adherence to tax law and logical consistency.
+*   **Stage 7: Compile Final Verification Report:** Summarising findings.
 
-For robust PDF handling, we implemented a "Visual-Reasoning Loop" involving structural extraction and OCR verification, guided by a confidence scoring system. This loop uses multiple extraction techniques and a **Confidence Scoring System** to ensure bank-grade precision. The comparison of outputs assigns HIGH, MEDIUM, or LOW confidence scores, with MEDIUM or LOW confidence values flagged for manual review. A more detailed technical breakdown of the `SKILL.md` and visual-reasoning process could be provided upon request.
+I am not including SKILL.md here. Reach out and I'll be happy to share.
 
 ---
 ## Another Missing Piece - Tools
 
-Since most documents are PDFs, I wanted extraction to be as precise as possible. To implement the Visual-Reasoning Loop I described earlier, I used a two-pass method with dedicated Python tooling:
+Since most documents are PDFs, I wanted extraction to be as precise as possible. For robust PDF handling, we implemented a "Visual-Reasoning Loop" involving structural extraction and OCR verification, guided by a confidence scoring system. This loop uses multiple extraction techniques and a **Confidence Scoring System** to ensure bank-grade precision. The comparison of outputs assigns HIGH, MEDIUM, or LOW confidence scores, with MEDIUM or LOW confidence values flagged for manual review.
 
-**Pass 1 (Structural Extraction):** Use Python programs leveraging libraries like `PyMuPDF` (Fitz) or `pdfminer.six` to extract the text layer and structural information from PDF documents. The output from this pass is typically structured data (e.g., JSON) containing text, page number, bounding box coordinates, and layout information.
+**Pass 1 (Structural Extraction):** Used Python programs leveraging libraries like `PyMuPDF` (Fitz) or `pdfminer.six` to extract the text layer and structural information from PDF documents. The output from this pass is typically structured data (e.g., JSON) containing text, page number, bounding box coordinates, and layout information.
 
-**Pass 2 (Visual & OCR Verification):** Another Python program uses `pdf2image` (with Poppler) to convert PDFs to high-resolution images, then `Pillow` or `OpenCV` for image analysis. The agent "looks" at these images to verify spatial relationships between labels and values, and extracts text from scanned or image-based PDFs using OCR (`pytesseract`).
+**Pass 2 (Visual & OCR Verification):** Another Python program used `pdf2image` (with Poppler) to convert PDFs to high-resolution images, then `Pillow` or `OpenCV` for image analysis. The agent "looks" at these images to verify spatial relationships between labels and values, and extracts text from scanned or image-based PDFs using OCR (`pytesseract`).
 
 **Comparison & Scoring:** Outputs are compared, assigning HIGH, MEDIUM, or LOW confidence scores. Values with MEDIUM or LOW confidence are flagged for manual review.
 
-Now the agent had everything it needed - Personality, Skills and Tools.
+**Now the agent had everything it needed - Personality, Skills and Tools.**
 
 ---
 ## Final Verification Report
@@ -157,7 +157,7 @@ The journey of writing the **specification** was very interesting. I probably co
 
 For me, the clarity came from describing the process in detail.
 
-> Writing it down connected the dots for me and for the agent.
+> **Writing it down connected the dots for me and for the agent.**
 
 So, what did my "skilled" agent find? My tax agent had done a surprisingly good job. She had accounted for all numbers accurately. However, the AI agent picked up a gap that I probably would have overlooked.
 
