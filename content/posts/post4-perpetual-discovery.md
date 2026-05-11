@@ -1,10 +1,11 @@
----
-title: "Archaeology of Enterprises"
-date: 2026-04-07T00:15:48+10:00
-# bookComments: false
-# bookSearchExclude: false
-# bookPostThumbnail: thumbnail.*
----
++++
+title = "Archaeology of Enterprises"
+date = 2026-04-07T00:15:48+10:00
+# bookComments = false
+# bookSearchExclude = false
+# bookPostThumbnail = "thumbnail.*"
+tags = ["enterprise-architecture", "discovery", "documentation", "consulting"]
++++
 
 I can't remember how many times I have faced the same dilemma every time I have started working on a new program -
  - How do I quickly understand what has been built so far?

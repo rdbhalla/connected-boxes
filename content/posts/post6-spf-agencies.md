@@ -1,9 +1,9 @@
----
-title: "The SPF Good Guys"
-date: 2026-04-14T18:04:41+10:00
-draft: false
-
----
++++
+title = "The SPF Good Guys"
+date = 2026-04-14T18:04:41+10:00
+draft = false
+tags = ["scams", "spf", "regulation", "australia", "financial-crime"]
++++
 **Scam!**
 
 We’ve all seen the headlines. It’s usually a variation of the same story: the "good guys" chasing the "bad guys," with the villains always appearing to be three steps ahead. For a long time, I never really questioned who those "good guys" actually were—or what they were doing besides playing a permanent game of catch-up.

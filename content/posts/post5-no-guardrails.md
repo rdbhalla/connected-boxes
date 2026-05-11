@@ -1,9 +1,9 @@
----
-title: "OpenCode Vibing Gone Wrong"
-date: 2026-04-12T22:18:47+10:00
-draft: false
-
----
++++
+title = "OpenCode Vibing Gone Wrong"
+date = 2026-04-12T22:18:47+10:00
+draft = false
+tags = ["ai-safety", "guardrails", "opencode", "lessons-learned"]
++++
 
 *"I am so disappointed. You wasted $0.35 and actually broke my blog completely."*
 

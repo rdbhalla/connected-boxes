@@ -1,8 +1,9 @@
----
-title: "I Used An Agent To Verify My Accountant's Work"
-date: 2026-05-10T19:56:27+10:00
-draft: false
----
++++
+title = "I Used An Agent To Verify My Accountant's Work"
+date = 2026-05-10T19:56:27+10:00
+draft = false
+tags = ["ai-agents", "automation", "tax", "verification", "specification"]
++++
 
 **TL;DR:** I used pi.dev to verify my tax return by co-designing an 7-stage SKILL.md with a Visual-Reasoning Loop. The agent found a missing investment-loan statement that my accountant had missed—proving that deterministic tasks need deterministic procedures, not black-box magic.
 

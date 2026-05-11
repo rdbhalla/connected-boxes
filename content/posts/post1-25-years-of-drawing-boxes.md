@@ -3,6 +3,7 @@ title = '25 Years Of Drawing Boxes'
 date = 2026-04-03T13:14:28+11:00
 draft = false
 description = "My very first post"
+tags = ["career", "consulting", "architecture", "reflection"]
 +++
 
 My two daughters have distilled down my entire career down to a single sentence:

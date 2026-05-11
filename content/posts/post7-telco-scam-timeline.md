@@ -1,9 +1,9 @@
----
-title: "Why Scam Defence Can't Rely on Victims Alone"
-date: 2026-05-07T09:00:00+10:00
-draft: false
-
----
++++
+title = "Why Scam Defence Can't Rely on Victims Alone"
+date = 2026-05-07T09:00:00+10:00
+draft = false
+tags = ["scams", "spf", "telcos", "consumer-protection", "fraud-prevention"]
++++
 This is a true story.
 
 A friend’s wife received a call from someone claiming to be from the ATO. The caller was aggressive and convincing. He told her that her husband had been arrested for tax fraud and, because of the “seriousness” of the case, the family was now under government surveillance.
