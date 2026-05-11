@@ -1,6 +1,6 @@
 ---
 title: "I Used An Agent To Verify My Accountant's Work"
-date: 2026-05-07T19:56:27+10:00
+date: 2026-05-10T19:56:27+10:00
 draft: false
 ---
 
