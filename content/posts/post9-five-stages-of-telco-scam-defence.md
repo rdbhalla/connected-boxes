@@ -155,4 +155,4 @@ Looking across these 6 stages, one question inevitably comes up:
 It is a fair question—and in my next post, I will break down why connecting probabilistic AI to deterministic telecom compliance is one of the hardest architectural challenges we face.
 
 ---
-*What part of the scam prevention journey do you think is hardest for organizations to get right? Let me know in the comments below!*
+*What part of the scam prevention journey do you think is hardest for organisations to get right? Let me know in the comments below!*
