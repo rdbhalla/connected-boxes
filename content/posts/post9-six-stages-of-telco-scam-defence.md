@@ -5,7 +5,7 @@ draft = false
 tags = ["scams", "spf", "telcos", "architecture", "consumer-protection"]
 +++
 
-**TL;DR:** When my friends picture scam prevention, they assume a single magic box labelled *"Filter"*. But as technologists working under Australia's new Scam Prevention Framework (SPF), our job is breaking that assumption down into 6 messy, connected boxes—from the customer journey at a retail counter to cross-sector intelligence and victim restitution.
+**TL;DR:** When my family and friends picture scam prevention, they assume a single magic box labelled *"Filter"*. But as technologists working under Australia's new Scam Prevention Framework (SPF), our job is breaking that assumption down into 6 messy, connected boxes—from the customer journey at a retail counter to cross-sector intelligence and victim restitution.
 
 ---
 
