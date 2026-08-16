@@ -1,8 +1,8 @@
----
-title: "I Trained An Agent To Verify My Accountant's Work"
-date: 2026-05-07T19:56:27+10:00
-draft: true
----
++++
+title = "I Trained An Agent To Verify My Accountant's Work"
+date = 2026-05-07T19:56:27+10:00
+draft = true
++++
 
 I dread the time every year when I have do my tax returns. I am ok with compiling the documents, but I am very bad at verifying whether my tax accountant has carefully accounted for all my income and expenses to claim the right deductions. If consider my wife's tax return too, its 70 pages of numbers which I need to carefully verify before I sign it for filing.
 
