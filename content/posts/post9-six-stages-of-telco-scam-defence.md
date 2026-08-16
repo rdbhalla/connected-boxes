@@ -152,7 +152,7 @@ Looking across these 6 stages, one question inevitably comes up:
 
 > *"If modern AI is so powerful, why can't we replace these manual reviews, threat lists, and complex rules with an end-to-end AI detection engine?"*
 
-It is a fair question—and in my next post, I will break down why connecting probabilistic AI to deterministic telecom compliance is one of the hardest architectural challenges we face.
+It is a fair question and in my next post, I will break down why connecting probabilistic AI to deterministic telecom compliance is one of the hardest architectural challenges we face.
 
 ---
 
