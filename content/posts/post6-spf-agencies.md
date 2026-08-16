@@ -28,7 +28,7 @@ _Role: Policy authority and rule-maker_
 
 ### Oversight and Enforcement
 
-#### ACCC (Australian Competition & Consumspf-good-guys.jpger Commission)
+#### ACCC (Australian Competition & Consumer Commission)
 _Role: Regulator and enforcement authority_
 
 - Overall oversight body for SPF across the economy.
@@ -63,7 +63,7 @@ _Role: Financial services sector regulator_
 ### External Dispute Resolution (EDR)
 
 #### AFCA (Australian Financial Complaints Authority) 
-Role: Authorised EDR scheme operator
+_Role: Authorised EDR scheme operator_
 
 - Authorised as the single EDR body for scam complaints across the initial banking, telecommunications, and digital platform sectors.
 - Responsible for independently determining consumer complaints and awarding compensation when businesses fail to meet their SPF obligations. (Note: Under the 2025 Act, there is a "waterfall" or "apportionment" model where liability can be shared between a bank, a telco, and a platform if all failed their "reasonable steps" for the same scam event.)
@@ -88,11 +88,11 @@ _Role: Telecommunications sector representative_
 - Support implementation feedback and consistency.
 
 #### ABA (Australian Banking Association)
- _Role: Banking sector representative_
+_Role: Banking sector representative_
 
- - Represents banks collectively.
- - Coordinates sector input into SPF design.
- - Supports implementation feedback and consistency.
+- Represents banks collectively.
+- Coordinates sector input into SPF design.
+- Supports implementation feedback and consistency.
 
 #### DIGI (Digital Industry Group Inc.)
 _Role: Digital platforms industry representative_
@@ -105,15 +105,15 @@ _Role: Digital platforms industry representative_
 
 ### Consumer Advocacy & Public Interest Oversight
 
-Treasury documents also mention consulting with "consumer groups," CALC is not explicitly named in the legislation or ACCC releases as a formal SPF agency.
+Although Treasury documents mention consulting with "consumer groups," CALC is not explicitly named in the legislation or ACCC releases as a formal SPF agency.
 
 #### CALC (Consumer Action Law Centre)
 _Role: Consumer and victim advocacy_
 
-- Represent scam victim's interests.
-- Provide independent policy input.
+- Represents scam victims' interests.
+- Provides independent policy input.
 - Applies scrutiny and challenge through SPF consultations.
-- Ensures consumers harm remains central to SPF design.
+- Ensures consumer harm remains central to SPF design.
 
 ---
 

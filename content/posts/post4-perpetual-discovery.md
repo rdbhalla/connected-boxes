@@ -15,7 +15,7 @@ I can't remember how many times I have faced the same dilemma every time I have 
 
 ## The mystery of perpetual discovery
 
-It has alluded me all throughout my career: **how can any organisation have the right amount of information about Technology Systems?** It's not that tools don't exist to capture this information, but then, keeping those tools updated is a challenge. Understanding which teams use which tools for delivering which processes is easy to capture when it all starts, but much harder to keep up to date as time progresses and multiple projects get delivered.
+It has eluded me all throughout my career: **how can any organisation have the right amount of information about Technology Systems?** It's not that tools don't exist to capture this information, but then, keeping those tools updated is a challenge. Understanding which teams use which tools for delivering which processes is easy to capture when it all starts, but much harder to keep up to date as time progresses and multiple projects get delivered.
 
 > Documentation is always a snapshot. And snapshots get stale the moment the camera clicks.
 
@@ -58,9 +58,9 @@ After 25 years in the trenches, my approach to discovery has shifted from **gath
 ## The archaeology continues
 Here's what I've accepted after a long time of doing this: you will never fully know what you have built. And that's okay.
 
-The goal isn't to eliminate discovery, but to get better at it. Learn to discover and leave better breadcrumbs. Be the kind ancestor for next person digging through your ruins.
+The goal isn't to eliminate discovery, but to get better at it. Learn to discover and leave better breadcrumbs. Be the kind ancestor for the next person digging through your ruins.
 
 The system will keep growing, more boxes will keep connecting. The documentation will keep lagging. The mystery will persist.
 
 ![Whiteboard](/images/posts/archaeology.png)
-*Gemini Banana thinks this is representation of my post*
+*Gemini Banana thinks this is a representation of my post*

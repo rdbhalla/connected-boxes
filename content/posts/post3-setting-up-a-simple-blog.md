@@ -9,12 +9,12 @@ tags = ["hugo", "blogging", "workflow", "tools", "ai-tools"]
 
 This long weekend, I finally managed to do something I have been putting off for months: I started a digital diary (blog).
 
-In the past, I've shared my thoughts on LinkedIn, but I've realised that content on LinkedIn is a nightmare to manage. I tried to edit an image in one of my past posts, and ended up completely disturbing the content. There was no way to roll back to an older version or fix the mess. That's when I had thought of creating a space that I could  actually control.
+In the past, I've shared my thoughts on LinkedIn, but I've realised that content on LinkedIn is a nightmare to manage. I tried to edit an image in one of my past posts, and ended up completely disturbing the content. There was no way to roll back to an older version or fix the mess. That's when I had thought of creating a space that I could actually control.
 
 ## The Setup: Debian, Hugo and GitHub
 I've been a Debian user for a long time - it's been my go-to ever since I started using Open Media Vault (OMV) for my home storage and Docker needs. It's a fantastic and rock-solid OS, which I have used to store my precious documents archive and all photos/videos.
 
-After a bit of research on Gemini (After spending a lot of time with Perplexity, I have settled currently on Gemini for my day to day queries), I settled on Hugo hosted on GitHub pages. Setting it up was  surprisingly straightforward - just a few commands and clicks, and the site was live.
+After a bit of research on Gemini (After spending a lot of time with Perplexity, I have settled currently on Gemini for my day to day queries), I settled on Hugo hosted on GitHub pages. Setting it up was surprisingly straightforward - just a few commands and clicks, and the site was live.
 
 If you are thinking of starting a blog, do check out Hugo and GitHub. It should work on any desktop OS of your choice.
 
@@ -22,7 +22,7 @@ If you are thinking of starting a blog, do check out Hugo and GitHub. It should 
 To make things easier, I installed OpenCode with OpenRouter as the model backend. I initialised it right in my Hugo base folder, and OpenCode was quick to create a context file to help me provide any assistance with my Hugo setup or template errors.
 
 I've been experimenting with a few different models on OpenRouter to see what works best:
-- **Gemini 3 Flash:** My main choice. Its fast and covers my basic needs perfectly.
+- **Gemini 3 Flash:** My main choice. It's fast and covers my basic needs perfectly.
 - **Deepseek V3.2:** Cheaper, but can be slow.
 - **Claude Sonnet 4.6:** Great, but relatively expensive for simple tasks.
 

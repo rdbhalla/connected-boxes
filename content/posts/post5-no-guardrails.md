@@ -35,14 +35,14 @@ I was using a high-reasoning model (the 'Big Pickle' as my AI Assistant), assumi
 
 ## What Went Wrong - Too Much Freedom
 
-As you may have already a lot went wrong - 
+As you may have guessed, a lot went wrong: 
 
 1. **Unchecked Power:**  The AI Agent had the full liberty to make decisions and update the core files of my blog.
 2. **The "Undo" mistake:** The AI Agent took the liberty to undo the change by resetting all my files by downloading a fresh copy from my online repository (```Github Clone```).
 3. **The Loss:** The AI Agent deleted my Post#4 draft because this file was not checked into Github, and hence it was removed as part of rollback.
 
-I learned two things immediately - 
-1. The AI Agent must opreate within guardrails defined by me. 
+I learned two things immediately:
+1. The AI Agent must operate within guardrails defined by me. 
 2. The AI Agent must not have access to my master backup (Github) without supervision.
 
 ## The Resolution - Set The Guardrails
