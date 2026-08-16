@@ -10,20 +10,20 @@
     {{ $recent := $posts.ByDate.Reverse | first 3 }}
     
     {{ if $recent }}
-      <ul class="book-posts">
+      <div class="book-posts">
       {{ range $recent }}
-        <li class="book-post">
+        <div class="book-post">
           <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
           <div class="book-post-meta">
             <time datetime="{{ .Date.Format "2006-01-02" }}">
-              {{ .Date.Format "January 2, 2006" }}
+              🗓️ {{ .Date.Format "January 2, 2006" }}
             </time>
           </div>
-          <p>{{ .Summary | truncate 200 }}</p>
-          <a href="{{ .RelPermalink }}" class="book-read-more">Read more →</a>
-        </li>
+          <p>{{ .Summary | truncate 180 }}</p>
+          <a href="{{ .RelPermalink }}" class="book-read-more">Read post →</a>
+        </div>
       {{ end }}
-      </ul>
+      </div>
     {{ else }}
       <p>No posts yet. Check back soon!</p>
     {{ end }}
@@ -37,8 +37,8 @@
     <h2>Find Me Elsewhere</h2>
     <ul>
       <li><a href="{{ "about/" | relURL }}">About Me</a></li>
-      <li><a href="https://github.com/rdbhalla">GitHub</a></li>
-      <li><a href="https://www.linkedin.com/in/raman-bhalla">LinkedIn</a></li>
+      <li><a href="https://github.com/rdbhalla" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/raman-bhalla" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
     </ul>
   </article>
 {{ end }}

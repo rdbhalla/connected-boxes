@@ -1,10 +1,18 @@
 <h2 class="book-brand">
   <a class="flex align-center" href="{{ cond (not .Site.Home.File) .Sites.Default.Home.RelPermalink .Site.Home.RelPermalink }}">
-    <svg class="book-logo" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true">
-      <rect x="1" y="1" width="13" height="13"/>
-      <rect x="18" y="1" width="13" height="13"/>
-      <rect x="1" y="18" width="13" height="13"/>
-      <rect x="18" y="18" width="13" height="13"/>
+    <svg class="book-logo" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <!-- Connecting Lines -->
+      <line x1="7" y1="7" x2="25" y2="7" stroke-dasharray="2 2" opacity="0.6"/>
+      <line x1="7" y1="25" x2="25" y2="25" stroke-dasharray="2 2" opacity="0.6"/>
+      <line x1="7" y1="7" x2="7" y2="25" stroke-dasharray="2 2" opacity="0.6"/>
+      <line x1="25" y1="7" x2="25" y2="25" stroke-dasharray="2 2" opacity="0.6"/>
+      <line x1="7" y1="7" x2="25" y2="25" opacity="0.4"/>
+      
+      <!-- 4 Connected Nodes / Boxes -->
+      <rect x="2" y="2" width="10" height="10" rx="2" fill="currentColor"/>
+      <rect x="20" y="2" width="10" height="10" rx="2" fill="currentColor"/>
+      <rect x="2" y="20" width="10" height="10" rx="2" fill="currentColor"/>
+      <rect x="20" y="20" width="10" height="10" rx="2" fill="currentColor"/>
     </svg>
     <span>{{ .Site.Title }}</span>
   </a>

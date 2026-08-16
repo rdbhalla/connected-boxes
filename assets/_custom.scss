@@ -1,17 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
 :root {
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-mono: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, Monaco, monospace;
-  --heading-color: #1e3a5f;
+  --primary: #1e3a8a;
+  --primary-hover: #2563eb;
+  --heading-color: #0f172a;
+  --text-color: #334155;
+  --border-color: #e2e8f0;
+  --card-bg: #ffffff;
+  --card-border: #e2e8f0;
+  --card-hover-border: #cbd5e1;
+  --quote-bg: rgba(30, 58, 138, 0.03);
+  --tag-bg: #eff6ff;
+  --tag-text: #1d4ed8;
+  --tag-border: #dbeafe;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --heading-color: #81a1c1;
+    --primary: #60a5fa;
+    --primary-hover: #93c5fd;
+    --heading-color: #f8fafc;
+    --text-color: #cbd5e1;
+    --border-color: #1e293b;
+    --card-bg: #111827;
+    --card-border: #1f2937;
+    --card-hover-border: #374151;
+    --quote-bg: rgba(96, 165, 250, 0.05);
+    --tag-bg: rgba(30, 58, 138, 0.3);
+    --tag-text: #93c5fd;
+    --tag-border: rgba(96, 165, 250, 0.2);
   }
 }
 
+/* Base Typography & Hierarchy */
 body,
 .book-menu,
 .book-toc,
@@ -23,24 +46,46 @@ nav label {
   font-family: var(--font-body);
 }
 
-.book-brand {
-  font-family: var(--font-mono);
+.markdown {
+  line-height: 1.75;
+  color: var(--text-color);
+  font-size: 1.05rem;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
   color: var(--heading-color);
+  font-weight: 700;
+  letter-spacing: -0.02em;
 }
 
-.markdown blockquote {
-  border-inline-start-color: var(--heading-color);
+h1 {
+  font-size: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
 }
 
-.book-brand a,
-.book-brand a:hover,
-.book-brand a:visited {
-  color: var(--heading-color);
+h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.4rem;
 }
 
+h3 {
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: var(--border-color);
+  margin: 2rem 0;
+}
+
+/* Code and Diagram Blocks */
 code,
 pre,
 kbd,
@@ -48,10 +93,164 @@ samp {
   font-family: var(--font-mono);
 }
 
-.book-logo {
-  width: 1.5em;
-  height: 1.5em;
-  margin-inline-end: 0.5em;
-  flex-shrink: 0;
+.markdown pre {
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  padding: 1rem 1.25rem;
+  font-size: 0.92rem;
+  line-height: 1.55;
+  overflow-x: auto;
+}
+
+.markdown code:not(pre code) {
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  font-size: 0.88em;
+  background: var(--tag-bg);
+  color: var(--tag-text);
+  border: 1px solid var(--tag-border);
+}
+
+/* Blockquotes & Pull Quotes */
+.markdown blockquote {
+  border-inline-start: 4px solid var(--primary);
+  background: var(--quote-bg);
+  padding: 0.85rem 1.25rem;
+  border-radius: 0 8px 8px 0;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: var(--text-color);
+}
+
+.markdown blockquote p {
+  margin: 0;
+}
+
+/* Image Captions & Images */
+.markdown img {
+  border-radius: 8px;
+  margin: 1.5rem auto 0.5rem auto;
+  display: block;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.markdown p > em:only-child {
+  display: block;
+  text-align: center;
+  font-size: 0.88rem;
+  color: var(--text-color);
+  opacity: 0.75;
+  margin-top: 0.4rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Brand & Logo */
+.book-brand {
+  font-family: var(--font-mono);
+}
+
+.book-brand a,
+.book-brand a:hover,
+.book-brand a:visited {
   color: var(--heading-color);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.book-logo {
+  width: 1.6em;
+  height: 1.6em;
+  margin-inline-end: 0.6em;
+  flex-shrink: 0;
+  color: var(--primary);
+}
+
+/* Homepage Posts Cards */
+.book-posts {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.book-post {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.book-post:hover {
+  border-color: var(--card-hover-border);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  transform: translateY(-2px);
+}
+
+.book-post h3 {
+  margin: 0 0 0.4rem 0;
+  font-size: 1.2rem;
+}
+
+.book-post h3 a {
+  text-decoration: none;
+  color: var(--heading-color);
+  transition: color 0.15s ease;
+}
+
+.book-post h3 a:hover {
+  color: var(--primary);
+}
+
+.book-post-meta {
+  font-size: 0.85rem;
+  color: var(--text-color);
+  opacity: 0.75;
+  margin-bottom: 0.6rem;
+}
+
+.book-post p {
+  margin: 0.4rem 0 0.8rem 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.book-read-more {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--primary);
+  text-decoration: none;
+  transition: transform 0.15s ease;
+}
+
+.book-read-more:hover {
+  text-decoration: underline;
+  transform: translateX(3px);
+}
+
+.book-post-view-all {
+  margin: 1.5rem 0;
+}
+
+.book-post-view-all a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: var(--tag-bg);
+  color: var(--tag-text);
+  border: 1px solid var(--tag-border);
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.book-post-view-all a:hover {
+  background: var(--primary);
+  color: #ffffff;
+  border-color: var(--primary);
 }
