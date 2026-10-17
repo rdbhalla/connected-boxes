@@ -202,4 +202,4 @@ Probabilistic models can spot patterns at machine speed, but they must always op
 The boxes are getting more intelligent. Now we just have to connect them properly.
 
 ---
-*What do you think? Where do you see AI making the biggest difference in enterprise scam defence: in millisecond ML detection, LLM semantic analysis, or autonomous investigative agents? Let me know your thoughts in the comments below!*
+*What do you think? Where do you see AI making the biggest difference in enterprise scam defence: in millisecond ML detection, LLM semantic analysis, or autonomous investigative agents?*
