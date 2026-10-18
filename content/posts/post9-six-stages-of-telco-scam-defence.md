@@ -26,13 +26,13 @@ When you look at scam defence through an architect's lens, that single "magic fi
 
 ```
  ┌────────────────────────────────────────────────────────────────────────┐
- │ Stage 1: The Front Door (Prevent Bad Actors from Signing Up)          │
+ │ Stage 1: The Front Door (Prevent Bad Actors from Signing Up)           │
  ├────────────────────────────────────────────────────────────────────────┤
- │ Stage 2: In-Life Analytics (Finding Needles in Billions of Events)    │
+ │ Stage 2: In-Life Analytics (Finding Needles in Billions of Events)     │
  ├────────────────────────────────────────────────────────────────────────┤
  │ Stage 3: Blast Radius Assessment (Confirming Before Disconnecting)     │
  ├────────────────────────────────────────────────────────────────────────┤
- │ Stage 4: Traffic Interception (Filtering Calls, SMS, and MMS)         │
+ │ Stage 4: Traffic Interception (Filtering Calls, SMS, and MMS)          │
  ├────────────────────────────────────────────────────────────────────────┤
  │ Stage 5: Cross-Sector Intelligence (Breaking Down Industry Silos)      │
  ├────────────────────────────────────────────────────────────────────────┤
